@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+  
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .favButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav {
+    background: #5df5bd;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4%;
+  }
+
+  .nav-p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .lista {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 45%;
+    justify-content: center;
+  }
+  nav li{
+    margin-right:50px;
+  }
+  
+  footer li {
+    margin-left: 1rem;
+  }
+  
+  .boton-nav {
+    border: 0.5px solid grey;
+    background-color: transparent;
+    background-image: url("/images/light.png");
+    background-size: cover;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  
+    
+  }
+
+  .dark .boton-nav{
+    background-image: url("/images/dark.png");
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .listaDos {
+    display: flex;
+    list-style: none;
+  
+  
+  }
+  
+  .imagenes {
+    width: 2rem;
+    background-color: #000000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #5df5bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+    margin-top: 2rem;
+  }
+  
+  footer>img {
+    width: 200px;
+    margin: 0;
+  }
+  
+  footer>p {
+    margin: 0;
+    padding-top: 0.7rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+  }
+
+  form button{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border: 0.5px solid rgb(136, 136, 136);
+    border-radius: 5px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card-grid {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 70vw;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 4vw;
+   
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: auto;
+    display: table;
+    border: 1px solid #ccc;
+    display: inline-block;
+  
+  }
+  
+  td,
+  th {
+    border: 1px solid #7b7b7b;
+    text-align: left;
+    padding: 8px;
+  }
+  .detail img{
+    width: 155px;
+    display: inline;
+  }
+  
+  .centrado {
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .sub-titulo {
+    padding-bottom: 2rem;
+  }
+  
+  .p-form {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  main.light {
+    background-color:rgb(243, 219, 154);
+    height: 90%;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+  }
+  .dark {
+    color: white
+  }
+  main.dark{
+    background-color: rgb(77, 76, 76);
+    height: 90%;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+  }
+  main.dark a{
+    color: white;
+  }
+ 
+  nav.dark{
+    background: rgb(37, 51, 44);
+  
+  }
+
+  nav.dark a{
+    color: white
+  }
+  
+  footer.dark{
+    background: rgb(37, 51, 44);
+  }
+  
+  footer.dark a{
+    color: white
+  }
+  
+  .detail{
+    padding: 3rem;
+    text-align: center;
+  }
+  .favs{
+    margin-bottom: 13rem;
+  }
